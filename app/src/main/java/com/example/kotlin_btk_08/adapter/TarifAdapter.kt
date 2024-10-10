@@ -22,6 +22,7 @@ class TarifAdapter(val tarifListesi: List<Tarif>): RecyclerView.Adapter<TarifAda
 
     override fun getItemCount(): Int {
         return tarifListesi.size
+
     }
 
     override fun onBindViewHolder(holder: TarifHolder, position: Int) {

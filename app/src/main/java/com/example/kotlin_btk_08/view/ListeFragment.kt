@@ -53,6 +53,7 @@ class ListeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding.floatingActionButton.setOnClickListener {
             yeniEkle(it)
+
         }
         binding.listerecyclerView.layoutManager = LinearLayoutManager(requireContext())
         verileriAl()

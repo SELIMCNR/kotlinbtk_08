@@ -87,6 +87,7 @@ class TarifFragment : Fragment() {
             if (gelenBilgi == "yeni"){
                 //yeni yemek eklemeye geldi
                 secilenTarif = null
+
                 binding.silButton.isEnabled = false
                 binding.kaydetButton.isEnabled = true
                 binding.editisimText.setText("")
